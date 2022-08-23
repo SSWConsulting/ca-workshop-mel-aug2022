@@ -1,4 +1,5 @@
 using CaWorkshop.Infrastructure.Data;
+using CaWorkshop.WebUI.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
