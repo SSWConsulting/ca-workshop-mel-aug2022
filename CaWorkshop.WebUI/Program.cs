@@ -74,7 +74,6 @@ else
     app.UseHsts();
 }
 
-app.UseOpenApi();// generates and serves the OpenAPI Spec (swagger.json)
 app.UseSwaggerUi3(); // generate the Swagger UI for the spec above
 
 app.UseHttpsRedirection();
